@@ -1,0 +1,49 @@
+*{padding:0;margin:0;text-decoration:none;list-style:none;box-sizing:border-box;-webkit-box-sizing:border-box;}
+html,body{width:100%;height:100%;}
+header{width:100%;min-height:2.6rem;margin:0 auto;padding: 0 0 0 0;position:relative;background:url(../img/bg1.jpg) no-repeat left top;overflow:hidden;}
+nav{width:100%;overflow:hidden;}
+.warp{width:100%;padding:0 0.2rem;}
+.logo{width: 2rem;float: left; margin:0.1rem 0 0 0.1rem;}
+.logo img{width:1.5rem;height:1rem;}
+.catalogo{width: 0.4rem;height: 0.06rem;float: right;margin-right:0.1rem;cursor: pointer;position:relative;}
+.catalogo i{width: 0.4rem;height: 0.06rem;position:relative;display:inline-block;background:#000;transition:all 0.2s ease-out; -moz-transition:all 0.2s ease-out;-webkit-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;}
+.catalogo i:before{content:' ';width: 0.4rem;height: 0.06rem;position: absolute;background: #000;top: -0.1rem;left: 0;transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-webkit-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out;}
+.catalogo i:after{content:' ';width:0.4rem;height:0.06rem;position: absolute;background: #000;top: -0.2rem;left: 0;transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;}
+.menu{width:100%;height:3.9rem;left:0;top:1.1rem;position:absolute;background: white;z-index: 99;display:none;}
+.menu  a{display:block;width:100%;height:25%;font-size:0.36rem;color:#4D3A12;}
+.menu .active{border-bottom: 0.01rem solid #92C528;}
+.menu a li{width:100%;height:25%;}
+.menu a li span{float:left;}
+.menu a li span:nth-of-type(1){padding:4.5%  0 4.5% 10%;width:35%;}
+.menu a li span:nth-of-type(2){width:56%;padding:4.5% 0;}
+
+.swiper-container {width:100%;height:100%;}
+ .Slide1,.Slide2,.Slide3{width:100%;height:100%;bottom:0.5rem;z-index:1;}
+.Slide1 .slide_p,.Slide2 .slide_p,.Slide3 .slide_p{width:100%;height:auto;padding:2.2rem 0 0.5rem 0;overflow: hidden;}
+ .Slide1  p,.Slide2  p,.Slide3  p{text-align: center;font-size: 0.48rem;color: #fff;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;margin:0.8rem 0 0.3rem 0;}
+.Slide1 .Slide_img,.Slide2 .Slide_img,.Slide3 .Slide_img{width: 100%;padding:0.86rem 3.8%;display: inline-block;background-color: rgba(252, 252, 252, 0.3); text-align:center;cursor:pointer;box-sizing:border-box;-webkit-box-sizing:border-box;}
+ .Slide1 img, .Slide2 img ,.Slide3 img{width:65%;height:65%;border-radius:50%;}
+ #main1{width:100%;}
+ .resume{width:100%;margin:auto;padding:0.1rem 0 0.2rem 0;}
+ .resume h2{text-align:center;margin:0.3rem 0;    font-size: 0.62rem;font-weight:500;color:#333;    line-height: 1.5rem;}
+.resume p{font-size:0.34rem;text-indent: 0.7rem;padding:0.1rem 0;color:#333;line-height: 0.62rem;}
+#main2{width:100%;}
+.main2_warp{width:100%;height:100%;background:#FAFAFA;}
+.warp_img{width:100%;height:6.4rem;overflow: hidden;border:0.4rem solid #FAFAFA;box-sizing:border-box;}
+.warp_img img{width:100%;height:100%;}
+.warp_txt{width:100%;padding: 0.1rem 0.5rem;}
+.warp_txt p{font-size:0.4rem;line-height: 1rem;}
+.warp_txt ul{width:100%;}
+.warp_txt ul li{list-style:none;width:100%;}
+.warp_txt ul li span:nth-of-type(1){width:36%;}
+.warp_txt ul li span{width:64%;height:100%;line-height:0.5rem;display:block;vertical-align: top;float:left;color:#333333;font-size: 0.34rem;}
+.warp_txt .btn{border:0.01rem solid #92c528;border-radius:5%;background-color:#92c528;color:#fff;display:inline-block;padding:0.08rem 0.32rem;margin-bottom: 0;font-size:0.56;font-weight: 400;line-height: 0.55rem;text-align: center;}
+#main3{width:100%;}
+.main3_warp{width:100%;}
+#main3 h2{font-size:0.62rem;font-family: "youyuan";text-align: center;margin:0.64rem 0;color:#595946;font-weight: 400;}
+.main3_warp dl{width:100%;color:#333333;padding:0 4%;}
+.main3_warp dl dt{padding:5% 16%;}
+.main3_warp dl dt img{width:100%;height:100%;display:block;border:0.01rem solid #DDDDDD;border-radius:3%;padding:0.1rem;}
+.main3_warp dl dd .slide_h3 h3{font-size:0.4rem;text-align:center;margin-bottom:0.3rem;}
+.main3_warp dl dd .slide_h3 span:after{content:' ';width:0.8rem;height: 0.04rem;position:absolute;left:45%;background: #E32929;    }
+.main3_warp dl dd p{padding:0.5rem 0;font-size:0.3rem;text-align:center;line-height:0.4rem;}
